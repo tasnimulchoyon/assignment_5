@@ -1,0 +1,813 @@
+/* global css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* global css end */
+
+/* full body css start */
+body{
+    font-family: "Source Sans 3", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+/* full body css end */
+
+/* nav + banner-1 in header section */
+
+/* header section css start */
+
+/* nav-bar css start  */
+header{
+    width: 100%;
+    background: url(../img/banner-1-bg.gif) center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+header .bg-body-tertiary{
+    background-color: transparent !important;
+}
+header .navbar-brand img{
+    margin-right: 7px;
+}
+header .navbar-nav .nav-link.active{
+    color: white;
+    background: url(../img/line.gif) center bottom no-repeat;
+}
+header .navbar-nav .nav-link{
+    color: white;
+}
+header .navbar-nav .nav-link:hover{
+    background: url(../img/line.gif) center bottom no-repeat;
+}
+/* nav-bar css end  */
+
+/* banner-1 css start */
+
+/* banner-1/left code start */
+.banner-1{
+    padding: 30px;
+}
+.banner-1 .left span{
+    font-size: 14px;
+    line-height: 48px;
+    color: #008ed6;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.banner-1 .left h1{
+    color: white;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+.banner-1 .left p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #999999;
+    width: 88%;
+    margin-bottom: 60px;
+}
+
+/* banner-1/left/b-group - code start */
+.banner-1 .left .b-group{
+    display: flex;
+    margin-top: 35px;
+}
+.banner-1 .left .b-group .b1 a{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #008ed6;
+    margin-right: 20px;
+    padding: 17px 30px;
+    color: white;
+    border: 1px solid #008ed6;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.banner-1 .left .b-group .b1 a:hover{
+    background-color: transparent;
+    border: 1px solid #454549;
+    transition: 0.3s;
+}
+.banner-1 .left .b-group .b2 a{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 17px 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #454549;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.banner-1 .left .b-group .b2 a:hover{
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.3s;
+}
+/* banner-1/left/b-group - css end */
+
+/* banner-1/right css - start */
+.banner-1 .right .img{
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+.banner-1 .right .img img{
+    width: 80%;
+    padding: 23px 0;
+}
+/* banner-1/right css - end */
+
+/* 1st banner css end */
+
+/* header section css end */
+
+/* feature section css start */
+.feature{
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+/* feature/up section css start */
+.feature .up{
+    width: 100%;
+    text-align: center;
+}
+.feature .up h4{
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.feature .up h1{
+    color: #1a1a1a;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.feature .up img{
+    width: 70px;
+    margin-bottom: 30px;
+}
+/* feature/up section css end */
+
+/* feature/down section css start */
+.feature .down{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+}
+/* feature/down/box section css start */
+.feature .down .box{
+    flex-basis: 25%;
+    text-align: center;
+    padding: 20px 0;
+
+    
+}
+.feature .down .box i{
+    /* width: 35px; */
+    margin-bottom: 20px;
+    color: #008ed6;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    border-radius: 50%;
+}
+/* most right icon of feature */
+.fa-mobile-phone:before, .fa-mobile:before {
+    width: 41px;
+    font-size: 22px;
+    content: "\f10b";
+    color: #008ed6;
+    padding: 3px 5px;
+}
+.feature .down .box h1{
+    color: #1a1a1a;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.feature .down .box p{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+/* feature/down/box section css end */
+
+/* feature/down section css end */
+
+/* feature section css end */
+
+
+/*  banner-2 section css start  */
+.banner-2{
+    padding: 30px 0px;
+    width: 100%;
+    height: 100vh;
+    border-top: 2px solid #ededed;
+}
+.banner-2 .col-6{
+    margin-top: 30px;
+}
+/* left css start */
+.banner-2 .left{
+    text-align: right;
+    width: 50%;
+}
+.banner-2 .left img{
+    width: 75%;
+    
+}
+/* left css end */
+
+/* right css start */
+.banner-2 .right{
+    width: 50%;
+}
+/* banner-2/right/up start */
+.banner-2 .right .up{
+    text-align: left;
+}
+.banner-2 .right .up span{
+    color: #008ed6;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.banner-2 .right .up h1{
+    color: #1a1a1a;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+    /* margin-bottom: 30px; */
+}
+.banner-2 .right .up img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+.banner-2 .right .up p{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 26px;
+    font-family: 400;
+    width: 87%;
+}
+/* banner-2/right/up end */
+
+/* banner-2/right/down start */
+.banner-2 .right .down{
+    text-align: left;
+}
+.banner-2 .right .down ul{
+    padding: 15px 0;
+    margin: 0;
+}
+.banner-2 .right .down ul li{
+    padding: 3px 0;
+}
+.banner-2 .right .down ul li img{
+    width: 20px;
+    margin-right: 5px;
+}
+.banner-2 .right .down ul li span{
+    color: #1b1b1b;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* banner-2/right/down start */
+
+/* right css end */
+
+/*  banner-2 section css end  */
+
+
+/* banner-3 css start */
+.banner-3{
+    width: 100%;
+    height: 70vh;
+    padding: 30px;
+    background-color: #f2f2f2;
+}
+/* col-6 start */
+.banner-3 .col-6{
+    width: 50%;
+}
+/* col-6 end */
+/* left start */
+.banner-3 .left{
+    padding: 20px 0;
+    text-align: left;
+
+}
+.banner-3 .left span{
+    color: #008ed6;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.banner-3 .left h1{
+    font-size: 36px;
+    line-height: 48px;
+    color: #1a1a1a;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.banner-3 .left img{
+    width: 50px;
+    margin-bottom: 30px 0;
+}
+.banner-3 .left p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #999999;
+    width: 84%;
+    margin-top: 25px;
+}
+/* left end */
+/* right start */
+.banner-3 .right{
+    text-align: center;
+    
+}
+.banner-3 .right img{
+    width: 100%;
+}
+/* right start */
+/* banner-3 css end */
+
+/* slide section css start */
+.slide{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/slide-bg.png) center center no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+}
+.slide .head{
+    padding: 20px 0;
+}
+.slide .head span{
+    color: #008ed6;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.slide .head h1{
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+}
+.slide .head img{
+    width: 50px;
+}
+
+.owl-theme{
+    margin-top: 25px;
+    padding: 20px;
+    
+}
+.item{
+    padding: 4px;
+}
+
+.item p{
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.inner{
+    width: 100%;
+    display: flex;
+}
+.inner .img img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inner .in-p{
+    margin-left: 20px;
+}
+.inner .in-p h5{
+    color: white;
+    font-size: 16px;
+    line-height: 42px;
+}
+.inner .in-p h6{
+    color: white;
+    font-size: 14px;
+    /* line-height: 26px; */
+    font-weight: 700;
+}
+
+/* slide section css end */
+
+/* details section css code start */
+.details{
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    padding: 50px 0;
+}
+/* left start */
+.details .left h1{
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 200;
+}
+.details .left h1 span{
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+}
+/* left end */
+
+/* right start */
+.details .right{
+    padding-top: 13px;
+    
+}
+.details .right a{
+    color: white;
+    margin-left: 20px;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.details .right .b1{
+    transition: 0.3s;
+    border-radius: 3px;
+    border: 1px solid #444348;
+}
+.details .right .b1:hover{
+    transition: 0.3s;
+    border: 1px solid #008ed6;
+    background-color: #008ed6;
+}
+.details .right .b2{
+    transition: 0.3s;
+    border-radius: 3px;
+    border: 1px solid #008ed6;
+    background-color: #008ed6;
+}
+.details .right .b2:hover{
+    transition: 0.3s;
+    border: 1px solid #444348;
+    background-color: transparent;
+}
+
+/* right end */
+
+/* details section css code end */
+
+/* feature-2 section css code start */
+.feature-2{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 100vh;
+    padding: 25px 0;
+}
+
+/* feature-2/up start */
+.feature-2 .up{
+    padding: 10px 0;
+}
+/* feature-2/up/up-in start */
+.feature-2 .up .up-in{
+    padding: 10px;
+}
+.feature-2 .up .up-in span{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+}
+.feature-2 .up .up-in h1{
+    color: #1a1a1a;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.feature-2 .up .up-in img{
+    width: 50px;
+}
+/* feature-2/up/up-in end */
+/* feature-2/up end */
+
+/* feature-2/down start */
+.feature-2 .down{
+    padding: 10px;
+    /* background-color: palevioletred; */
+}
+/* feature-2/down/down-in start */
+.feature-2 .down .down-in{
+    /* border: 1px solid #e0e0e0; */
+    /* background-color: rgb(31, 111, 31); */
+}
+/* feature-2/down/down-in/tt start */
+.feature-2 .down .down-in .tt h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+}
+.feature-2 .down .down-in .tt h2:hover{
+    color: #008ed6;
+}
+/* feature-2/down/down-in/tt end */
+
+/* feature-2/down/down-in/mm start */
+.feature-2 .down .down-in .mm{
+    border: 1px solid #e0e0e0;
+}
+/* .feature-2 .down .down-in .mm:hover{
+    background-color: #008ed6;
+    color: white;
+} */
+.feature-2 .down .down-in .mm h1{
+    color: black;
+    font-size: 60px;
+    line-height: 20px;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.feature-2 .down .down-in .mm h1 sup{
+    color: black;
+    font-size: 30px;
+}
+.feature-2 .down .down-in .mm p{
+    color: #999999;
+    font-size: 18px;
+    line-height: 28px;
+}
+/* feature-2/down/down-in/mm end
+ */
+
+ /* feature-2/down/down-in/pp start */
+ .feature-2 .down .down-in .pp{
+    color: #999999;
+    border: 1px solid #e0e0e0;
+    padding: 15px 7px;
+ }
+ .feature-2 .down .down-in .pp a{
+    color: #008ed6;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+ }
+ .feature-2 .down .down-in .pp a:hover{
+    color: white;
+    background-color: #008ed6;
+    border: #008ed6;
+    transition: 0.3s;
+ }
+ /* feature-2/down/down-in/pp end */
+ 
+/* feature-2/down/down-in end */
+/* feature-2/down end */
+/* feature-2 section css code end */
+
+/* contact section css code start */
+.contact{
+    position: relative;
+    padding: 30px 0;
+    width: 100%;
+    height: 90vh;
+    background-color: #ededed;
+    /* background-color: brown; */
+}
+/* hh start */
+.contact .hh{
+    /* background-color: gray; */
+    width: 100%;
+    padding: 10px 0;
+}
+.contact .hh span{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+}
+.contact .hh h1{
+    color: #1a1a1a;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.contact .hh img{
+    width: 50px;
+}
+/* hh end */
+/* mm start */
+.contact .mm{
+    margin-left: 0px;
+    /* background-color: wheat; */
+    width: 100%;
+    padding: 20px 0;
+}
+.contact .mm i{
+    color: blue;
+}
+.fa-mobile-phone:before, .fa-mobile:before {
+    width: 41px;
+    font-size: 22px;
+    content: "\f10b";
+    color: blue;
+    padding: 3px 5px;
+}
+.contact .mm p{
+    color: #999999;
+    font-size: 18px;
+    line-height: 26px;
+}
+/* mm end */
+/* bb start */
+.contact .bb{
+    padding: 10px;
+/* background-color: yellow; */
+}
+.contact .bb .form{
+    /* background-color: magenta; */
+    
+    margin-right:  auto;
+}
+.contact .bb .form .row{
+    /* position: absolute; */
+    width: 650px;
+    height: 230px;
+    background-color: black;
+    padding: 25px ;
+    margin: auto;
+}
+.contact .bb .form div{
+    
+    padding: 10px 0;
+}
+.contact .bb .form input{
+    padding: 5px 0;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #444348;
+    font-size: 14px;
+    font-weight: 700;
+}
+.contact .bb .form ::placeholder{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.contact .bb .form .msz input{
+    height: 100px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    
+}
+.contact .bb .form .msz ::placeholder{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.contact .s-btn a{
+    color: white;
+    margin-right: 51px;
+    border: 1px solid #008ed6;
+    background-color: #008ed6;
+    border-radius: 3px;
+    padding: 10px 20px;
+    transition: 0.3s;
+
+}
+.contact .s-btn a:hover{
+    transition: 0.3s;
+    color: white;
+    background: transparent;
+}
+/* bb end */
+/* contact section css code end */
+
+
+/* map css start */
+/* .map{
+    width: 100%;
+    height: 80vh;
+    background: url(../img/map.png) center center no-repeat;
+} */
+
+.map .container{
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+}
+.map .container iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* map css end */
+
+/* footer section css start */
+.mb{
+    padding: 30px 0;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+/* logo start */
+.mb .logo i{
+    transition: 0.3s;
+    color: #444348;
+    padding: 5px ;
+    margin: 0 5px;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.mb .logo i:hover{
+    transition: 0.3s;
+    color: #008ed6;
+}
+/* logo end */
+/* cr start */
+.mb .cr span{
+    margin-top: 30px;
+    color: #444348;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.mb .cr span a{
+    color: rgba(255, 255, 255, 0.589);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.mb .cr span a:hover{
+    color: #008ed6;
+    transition: 0.3s;
+
+}
+.mb .cr .up{
+    color: white;
+    font-size: 23px;
+    margin-left: 16px;
+    transition: 0.3s;
+    
+}
+.mb .cr .up:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+/* cr end */
+/* footer section css end */
